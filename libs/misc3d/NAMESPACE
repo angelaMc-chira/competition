@@ -1,0 +1,15 @@
+# Should import rgl once it has a name space
+
+export(contour3d,computeContour3d)
+export(image3d)
+export(parametric3d)
+export(slices3d)
+export(drawScene,drawScene.rgl)
+export(exportScene)
+export(surfaceTriangles)
+export(makeTriangles,updateTriangles)
+export(scaleTriangles,translateTriangles,transformTriangles)
+export(perspLighting,phongLighting)
+export(kde3d)
+export(pointsTetrahedra)
+export(linesTetrahedra)

@@ -1,0 +1,67 @@
+TESS-package            Diversification rate estimation and fast
+                        simulation of reconstructed phylogenetic trees
+                        under tree-wide time-heterogeneous birth-death
+                        processes including mass-extinction events
+cettiidae               Cettiidae phylogeny from Alstroem et al. (2011)
+conifers                Conifer phylogeny from Leslie et al. (2012)
+mammalia                Dated family level mammalian phylogeny from
+                        Meredith et al. (2011): Impacts of the
+                        cretaceous terrestrial revolution and kpg
+                        extinction on mammal diversification.
+tess.PosteriorPrediction
+                        tess.PosteriorPrediction: Approximation of the
+                        posterior predictive distribution.
+tess.PosteriorPredictiveTest
+                        tess.PosteriorPredictiveTest: Approximation of
+                        the posterior predictive distribution.
+tess.analysis           tess.analysis: Diversification rate estimation
+                        under an episodic birth-death process including
+                        mass-extinction events.
+tess.likelihood         tess.likelihood: Probability density of a tree
+                        under a tree-wide time-dependent birth-death
+                        process
+tess.likelihood.rateshift
+                        tess.likelihood.rateshift: Probability density
+                        of a tree under a tree-wide time-dependent
+                        birth-death-shift process
+tess.mcmc               tess.mcmc: Markov chain Monte Carlo simulation
+                        using a general Metropolis-Hastings algorithm.
+tess.nTaxa.expected     tess.nTaxa.expected: The expected number of
+                        taxa at present of a tree under a global,
+                        time-dependent birth-death process ( E[ N(T) ]
+                        )
+tess.pathSampling       tess.pathSampling: Marginal likelihood
+                        estimation via Path-Sampling.
+tess.plot.multichain.diagnostics
+                        tess.plot.multichain.diagnostics: Plotting the
+                        mcmc diagnostics of a episodic diversification
+                        rate analysis with mass-extinction events.
+tess.plot.output        tess.plot.output: Plotting the output of a
+                        diversification rate estimation including
+                        mass-extinction events.
+tess.plot.singlechain.diagnostics
+                        tess.plot.mcmc.diagnostics: Plotting the single
+                        chain mcmc diagnostics of a episodic
+                        diversification rate analysis with
+                        mass-extinction events.
+tess.process.output     tess.process.output: Summarizing the output of
+                        a diversification rate estimation including
+                        mass-extinction events. See the tess.analysis
+                        function for more information on how such
+                        output is generated and the tess.plot.output
+                        how the output can be visualized. Also have a
+                        look at the vignette for more in detail
+                        description and examples.
+tess.sim.age            tess.sim.age: Simulate a reconstructed tree for
+                        a given age under a global, time-dependent
+                        birth-death process.
+tess.sim.taxa           tess.sim.taxa.taxa: Simulate a reconstructed
+                        tree for a given number of taxa under a global,
+                        time-dependent birth-death process.
+tess.sim.taxa.age       tess.sim.taxa.taxa.age: Simulate a
+                        reconstructed tree for a given age and number
+                        of taxa under a global, time-dependent
+                        birth-death process.
+tess.steppingStoneSampling
+                        tess.steppingStoneSampling: Marginal likelihood
+                        estimation via Stepping-Stone-Sampling.

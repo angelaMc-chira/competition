@@ -1,0 +1,19 @@
+citHeader("To cite misc3d in publications use:")
+
+citEntry(entry = "Article",
+  title        = "Computing and Displaying Isosurfaces in {R}",
+  author       = personList(as.person("Dai Feng"),
+                   as.person("Luke Tierney")),
+  journal      = "Journal of Statistical Software",
+  year         = "2008",
+  volume       = "28",
+  number       = "1",
+  url          = "http://www.jstatsoft.org/v28/i01/",
+
+  textVersion  =
+  paste("Dai Feng, Luke Tierney (2008).",
+        "Computing and Displaying Isosurfaces in R.",
+        "Journal of Statistical Software 28(1).",
+        "URL http://www.jstatsoft.org/v28/i01/.")
+)
+
