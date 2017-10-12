@@ -14,7 +14,7 @@ param_stats_par = function(tree, file='param_stats.out', reps=1e3, max_sigma=8, 
                      rm(d1)
     }     
     
-    stats = summary_stats(data=d, ...) 
+    stats = summary_stats(data=d, tree=tree,...) 
     write(c(sig[i], atry[i], stats), file=paste(paste("dir",file,"/", sep=""), file,"_PS", i , sep=""), append=F, sep=",")
   }, mc.cores=ncores, mc.preschedule = F)
   

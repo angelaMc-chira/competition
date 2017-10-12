@@ -155,7 +155,7 @@ param_stats = function(tree, file='param_stats.out', reps=1e3, max_sigma=8, max_
     for(i in 1:reps)
     {
         d = sim(tree=tree, a=atry[i], sigma=sig[i], ...)$tval
-        stats = summary_stats(data=d, ...) 
+        stats = summary_stats(data=d, tree=tree,...) 
         write(c(sig[i], atry[i], stats), file=file, append=TRUE, sep=",")
     }
 }
