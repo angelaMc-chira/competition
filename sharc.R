@@ -1,7 +1,11 @@
 rm(list=ls()) #clear
 
+# packages
+install.packages("ks")
+install.packages("picante")
+install.packages("TESS")
 
-# source the functions - use relative path ...?
+# source the functions
 source("scripts/R/sim.R")
 source("scripts/R/sim2.R")
 
