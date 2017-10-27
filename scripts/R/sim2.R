@@ -2,7 +2,8 @@
 ### ALL IN ONE GO, PARALLEL
 param_stats_par = function(tree, file='param_stats.out', reps=1e3, max_sigma=8, max_a=8, ncores=30, save_sim=F,...)
 {
-  sig = runif(reps, 0, max_sigma)
+  #sig = runif(reps, 0, max_sigma)
+  sig = rep(1, reps)
   atry = runif(reps, 0, max_a)
   
   dir.create(paste("dir",file,"/", sep="")) #creates it in the working dir
@@ -32,7 +33,8 @@ param_stats_par = function(tree, file='param_stats.out', reps=1e3, max_sigma=8, 
 
 ### SIM FIRST
 param_stats_simonly = function(tree, file='param_stats.out', reps=1e3, max_sigma=8, max_a=8,...) 
-{ sig = runif(reps, 0, max_sigma)
+{ #sig = runif(reps, 0, max_sigma)
+  sig = rep(1, reps)
   atry = runif(reps, 0, max_a)
 
   dir.create(paste("dir",file,"/", sep=""))
@@ -47,7 +49,8 @@ for(i in 1:reps)
 
 param_stats_simonly_parr = function(tree, file='param_stats.out', reps=1e3, max_sigma=8, max_a=8, ncores=30,...)
 {
-  sig = runif(reps, 0, max_sigma)
+  #sig = runif(reps, 0, max_sigma)
+  sig = rep(1, reps)
   atry = runif(reps, 0, max_a)
   dir.create(paste("dir",file,"/", sep=""))
   
